@@ -1,0 +1,12 @@
+
+<h1>Send an Email</h1>
+
+<form (ngSubmit)="submit()" method="POST" [formGroup]="contactForm" >
+    <div class="form">
+        <input type="email" name='email' formControlName="email" placeholder="Enter your email" class="email" >
+        <span *ngIf="email?.invalid">*Email is not valid</span>
+        <textarea name='body' formControlName="body" type="text" placeholder="Body" class="body" ></textarea>
+        <span *ngIf="body?.invalid">*Nothing in body</span>
+        <input [disabled]="!contactForm.valid" type="submit" value="submit">
+    </div>
+</form>

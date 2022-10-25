@@ -1,0 +1,54 @@
+.picsum-img-wrapper {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lol  {
+
+    height: 35vw;
+    width: 70vw;
+    background-size: cover;
+    background-image: url("/assets/imgs/league.jpg");
+    background-position: 10% 30%;
+}
+
+#chess  {
+
+    height: 35vw;
+    width: 70vw;
+    background-size: cover;
+    background-image: url("/assets/imgs/chess.jpg");
+    background-position: 10% 70%;
+}
+
+#food {
+
+    height: 35vw;
+    width: 70vw;
+    background-size: cover;
+    background-image: url("/assets/imgs/food.jpg");
+    background-position: 10% 30%;
+
+}
+
+ngb-carousel {
+
+    width: 70vw;
+
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.507);
+    border-radius: 5vh;
+    
+}
+
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+

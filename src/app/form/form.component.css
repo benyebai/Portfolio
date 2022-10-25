@@ -1,0 +1,34 @@
+.form {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+input.ng-invalid {
+    border-left: 5px solid red
+}
+
+input.ng-valid {
+    border-left: 5px solid rgb(3, 202, 70)
+}
+
+textarea.ng-invalid {
+    border-left: 5px solid red
+}
+
+textarea.ng-valid {
+    border-left: 5px solid rgb(3, 202, 70)
+}
+
+.email {
+    width: 50vw;
+}
+
+.body {
+    width: 50vw;
+    height: 30vh;
+}
+
+span {
+    color: red;
+}
