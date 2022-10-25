@@ -62,7 +62,7 @@ body {
     width: 85vw;
     border-radius: 1vw;
     background-size: cover;
-    background-image: url('/assets/imgs/Miku.jpg');
+    background-image: url('../../assets/imgs/Miku.jpg');
     box-shadow: 3px 3px 10px rgb(48, 47, 47);
   
     text-align: right
@@ -103,7 +103,7 @@ body {
     width: 35vw;
     border-radius: 1vw;
     background-size: cover;
-    background-image: url('/assets/imgs/SHEESH.jpg');
+    background-image: url('../../assets/imgs/SHEESH.jpg');
     background-position: 10% 50%;
     opacity: 100%;
   
@@ -208,7 +208,7 @@ body {
     width: 35vw;
     border-radius: 1vw;
     background-size: cover;
-    background-image: url('/assets/imgs/delta.jpg');
+    background-image: url('../../assets/imgs/delta.jpg');
     background-position: 10% 50%;
     opacity: 100%;
   

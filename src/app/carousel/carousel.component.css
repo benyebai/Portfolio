@@ -10,7 +10,7 @@
     height: 35vw;
     width: 70vw;
     background-size: cover;
-    background-image: url("/assets/imgs/league.jpg");
+    background-image: url("../../assets/imgs/league.jpg");
     background-position: 10% 30%;
 }
 
@@ -19,7 +19,7 @@
     height: 35vw;
     width: 70vw;
     background-size: cover;
-    background-image: url("/assets/imgs/chess.jpg");
+    background-image: url("../../assets/imgs/chess.jpg");
     background-position: 10% 70%;
 }
 
@@ -28,7 +28,7 @@
     height: 35vw;
     width: 70vw;
     background-size: cover;
-    background-image: url("/assets/imgs/food.jpg");
+    background-image: url("../../assets/imgs/food.jpg");
     background-position: 10% 30%;
 
 }
